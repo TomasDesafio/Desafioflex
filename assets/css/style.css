@@ -1,0 +1,75 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto+Flex:opsz,wght@8..144,700&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:wght@300;500&family=Roboto+Flex:opsz,wght@8..144,700&family=Roboto:wght@300;500&display=swap');
+
+
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;    
+
+}
+
+.contenedor{
+    display:flex;
+    flex-direction:row;
+    border: 1px solid black;
+    height: 100vh;
+
+}
+.barraLateral{
+    border: 1px solid red;
+    flex-grow: 1;
+
+}
+
+.contenido{
+    border: 1px solid green;
+    flex-grow: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+}
+
+.perfil{
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+
+}
+.perfil_foto{
+    display: flex;
+}
+
+.foto_perfil{
+    height: 50px;
+    width: 50px;
+    margin-right: 8px;
+    border-radius:100%;
+}
+
+.nuevoChat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid violet;
+    padding: 30px;
+}
+.boton{
+    padding: 8px;
+    background-color:violet;
+    border:1px solid purple;
+    color:white;
+}
+.contenido{
+    display:flex;
+    flex-direction:column;
+}

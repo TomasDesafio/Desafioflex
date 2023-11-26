@@ -1,7 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto+Flex:opsz,wght@8..144,700&family=Roboto:wght@300;500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Raleway:wght@300;500&family=Roboto+Flex:opsz,wght@8..144,700&family=Roboto:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Roboto:wght@300;500&display=swap');
 
 
 *{
@@ -9,39 +6,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Raleway", sans-serif;    
+       
 
 }
 
 .contenedor{
     display:flex;
     flex-direction:row;
-    border: 1px solid black;
+    
     height: 100vh;
 
 }
 .barraLateral{
-    border: 1px solid red;
     flex-grow: 1;
+    height: 100%;
 
 }
 
 .contenido{
-    border: 1px solid green;
+    
     flex-grow: 5;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: grey;
+    background-color:#E8EBE4;
+    padding-bottom: 35rem;
+    padding-top: 28rem;
+    border:none;
 }
 
 .perfil{
-    border: 1px solid blue;
+    
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 10px;
+    padding-top: 0.62rem;
+    padding-bottom: 0.62rem;
+    border-bottom: 2px solid #BEC1BB;
 
 
 }
@@ -50,26 +52,121 @@
 }
 
 .foto_perfil{
-    height: 50px;
-    width: 50px;
-    margin-right: 8px;
+    height: 3.84rem;
+    width: 3.12rem;
+    margin-right: 0.5rem;
     border-radius:100%;
+
 }
 
 .nuevoChat{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid violet;
-    padding: 30px;
+    padding-top:3rem;
+    padding-bottom:3rem;
+    border-bottom: 2px solid #BEC1BB; 
 }
 .boton{
-    padding: 8px;
-    background-color:violet;
-    border:1px solid purple;
+    padding: 0.5rem;
+    background-color:#A491D2;
+    border: none;
+    height: 3.5rem;
+    width: 14rem;
     color:white;
+    font-size:1.2rem ;
 }
 .contenido{
     display:flex;
     flex-direction:column;
+    border:none;
+}
+
+.nombre_perfil{
+    font-family: Roboto ;
+    font-size: 0.875rem ;
+    color: black;
+
+}
+
+.estado_perfil{
+    font-family: Roboto ;
+    font-size: 0.875rem ;
+    color: #BEC1BB;
+
+
+}
+
+.id{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconos{
+    display: flex;
+    gap: 1.5625rem;
+    
+}
+
+.contacto{
+    
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+
+.perfil_contacto{
+    display: flex;
+    padding-top: 0.9375rem;
+    padding-bottom: 0.9375rem;
+    border-bottom: 2px solid #BEC1BB;
+    padding-left: 4.6875rem;
+
+    
+}
+
+.foto_contacto{
+    height: 4.0625rem;
+    width: 4.0625rem;
+    margin-right: 0.9375rem;
+    border-radius:100%;
+
+}
+
+.nombre_contacto{
+    font-family: Roboto ;
+    font-size: 1rem ;
+    color:black;
+
+
+}
+
+.estado_contacto{
+    font-family: Open Sans ;
+    font-size: 0.85rem ;
+    color:black;
+    text-align: center;
+
+
+}
+
+.id_contacto{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.imagen_contenido{
+    height: 18rem;
+    width: 18rem;
+}
+
+.titulo_contenido{
+    padding-bottom: 1600rem;
+    
 }
